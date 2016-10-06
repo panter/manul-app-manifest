@@ -2,6 +2,23 @@
 
 This manifest defines the way how we create modern, modular and maintainable web-applications. It has focus on meteor&react, but can be extended to other technologies like magnolia or ruby on rails as well.
 
+## TL;DR:
+
+- We program in ES2015 (aktuelle javascript-version), following styleguide: https://github.com/airbnb/javascript, sample .eslintrc can be found here: [.eslintrc](.eslintrc)
+
+- For meteor-apps, please read the official [http://guide.meteor.com](guide) (focus on react)
+
+- UI is written in [https://facebook.github.io/react/](react), we prefer [https://facebook.github.io/react/docs/reusable-components.html#stateless-functions](functional and stateless components).
+
+- We folow the [https://github.com/kadirahq/mantra](mantra)-specification. 
+
+- mantra gives us depencency-injection and a clean architecture. It enforces distinguish between [https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.g3judhufh](*component* and *container*).
+
+- For a sample mantra app, take a look here: [https://github.com/mantrajs/mantra-sample-blog-app](sample app)
+
+- We believe that *inline-styling* solves a lot of problem with styling. [https://github.com/FormidableLabs/radium](radium) helps with that. We also have our own [https://git.panter.ch/manul/manul-utils/blob/master/with_theme.js](*Higher Order Component*) that defines a pattern to caluculate styles based on a theme-object and the component's properties. 
+
+
 
 ## Mantra
 
