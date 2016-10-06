@@ -4,21 +4,21 @@ This manifest defines the way how we create modern, modular and maintainable web
 
 ## TL;DR:
 
-- take a short look at this [The%20Way%20of%20the%20Manul.pdf](presentation)
+- take a short look at this [presentation](The%20Way%20of%20the%20Manul.pdf)
 
-- We program in ES2015 (aktuelle javascript-version), following styleguide: https://github.com/airbnb/javascript, sample .eslintrc can be found here: [.eslintrc](.eslintrc)
+- We program in ES2015 (aktuelle javascript-version), following [styleguide](https://github.com/airbnb/javascript). A sample .eslintrc can be found here: [.eslintrc](.eslintrc)
 
-- For meteor-apps, please read the official [http://guide.meteor.com](guide) (focus on react)
+- For meteor-apps, please read the official [guide](http://guide.meteor.com) (focus on react)
 
-- UI is written in [https://facebook.github.io/react/](react), we prefer [https://facebook.github.io/react/docs/reusable-components.html#stateless-functions](functional and stateless components).
+- UI is written in [react](https://facebook.github.io/react/), we prefer [functional and stateless components](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions).
 
-- We folow the [https://github.com/kadirahq/mantra](mantra)-specification. 
+- We folow the [mantra](https://github.com/kadirahq/mantra)-specification. 
 
-- mantra gives us depencency-injection and a clean architecture. It enforces distinguish between [https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.g3judhufh](*component* and *container*).
+- mantra gives us depencency-injection and a clean architecture. It enforces distinguish between [*component* and *container*](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.g3judhufh).
 
-- For a sample mantra app, take a look here: [https://github.com/mantrajs/mantra-sample-blog-app](sample app)
+- For a sample mantra app, take a look here: [sample app](https://github.com/mantrajs/mantra-sample-blog-app)
 
-- We believe that *inline-styling* solves a lot of problem with styling. [https://github.com/FormidableLabs/radium](radium) helps with that. We also have our own [https://git.panter.ch/manul/manul-utils/blob/master/with_theme.js](*Higher Order Component*) that defines a pattern to caluculate styles based on a theme-object and the component's properties. 
+- We believe that *inline-styling* solves a lot of problem with styling. [radium](https://github.com/FormidableLabs/radium) helps with that. We also have our own [*Higher Order Component*](https://git.panter.ch/manul/manul-utils/blob/master/with_theme.js) that defines a pattern to caluculate styles based on a theme-object and the component's properties. 
 
 
 
