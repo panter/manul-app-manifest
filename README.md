@@ -4,6 +4,8 @@ This manifest defines the way how we create modern, modular and maintainable web
 
 ## TL;DR:
 
+- take a short look at this [The%20Way%20of%20the%20Manul.pdf](presentation)
+
 - We program in ES2015 (aktuelle javascript-version), following styleguide: https://github.com/airbnb/javascript, sample .eslintrc can be found here: [.eslintrc](.eslintrc)
 
 - For meteor-apps, please read the official [http://guide.meteor.com](guide) (focus on react)
